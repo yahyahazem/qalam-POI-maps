@@ -2,6 +2,9 @@
 
 A powerful and elegant Arabic map parsing application inspired by Qalam.ai.
 
+Advanced Arabic POI Intelligence API
+"Our high-performance API transforms messy, natural language Arabic queries into structured, high-intent geospatial data in milliseconds. Powered by a specialized Qwen 2.5 architecture, the engine performs deep semantic analysis—extracting entity categories, geographic constraints, and intent nuances that traditional search engines miss. Engineered for enterprise-grade reliability, the service offers a stateless, low-latency infrastructure capable of handling high-volume requests without compromising precision. By integrating our API, developers can bypass the complexity of Arabic NLP and immediately offer their users a search experience that is as fast as it is intelligent, making it the definitive backbone for the next generation of MENA-focused location discovery platforms."
+
 ## ✨ Features
 
 - **Arabic Query Parsing**: Intelligent understanding of Arabic location queries.
