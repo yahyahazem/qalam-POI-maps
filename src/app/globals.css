@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F9FAFB;
+  --foreground: #1F2937;
+  --qalam-teal: #008080;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-qalam-teal text-white px-4 py-2 rounded-qalam transition-all hover:bg-opacity-90 active:scale-95 disabled:opacity-50 disabled:scale-100;
+  }
+
+  .qalam-card {
+    @apply bg-white rounded-qalam shadow-qalam p-4 border border-gray-100;
+  }
+
+  .qalam-input {
+    @apply w-full px-4 py-3 rounded-qalam border border-gray-200 bg-white outline-none transition-all focus:border-qalam-teal focus:ring-2 focus:ring-qalam-teal/20;
+  }
+}
